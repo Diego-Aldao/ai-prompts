@@ -24,7 +24,7 @@ const NavMobile = ({ session, providers, signIn, signOut }) => {
           {toggleDropdown && (
             <div className="dropdown">
               <Link
-                href="/profile"
+                href="/perfil"
                 className="dropdown_link capitalize"
                 onClick={() => setToggleDropdown(false)}
               >
